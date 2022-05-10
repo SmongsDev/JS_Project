@@ -8,26 +8,27 @@
     <title>login</title>
 </head>
 <body>
-    <h2 id="clock">00:00:00</h2>
-    <form class="hidden" id="login-form">
-        <input requeired maxlength="15" type="text" placeholder="What is your name?">
-        <button>Login</button>
-    </form>
-    <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required>
-    </form>
-    <ul id="todo-list">
-        
-    </ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
+    <div class="middle">   
+        <span id="temp"></span>
+        <span id="place"></span>
+        <h1 id="clock">00:00:00</h1>
+
+        <form class="hidden" id="login-form">
+            <input requeired maxlength="15" type="text" placeholder="What is your name?">
+        </form>
+        <h2 class="hidden" id="greeting"></h2>
+
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do!" required>
+        </form>
+        <ul id="todo-list"></ul>
     </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
+    <div class="footer">
+        <span id="quote"></span>
+        <br>
+        <span id="author"></span>
     </div>
+    
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
