@@ -8,7 +8,27 @@
     <title>PaintJS</title>
 </head>
 <body>
-    
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="jsRange" min="0.1" max="5.0" value="2.5" step="0.1">
+        </div>
+        <div class="controls_btns">
+            <button id="jsMode">File</button>
+            <button id="jsSave">Save</button>
+        </div>
+        <div class="controls_colors" id="jsColors">
+            <div class="controls_color" style="background-color: black;"></div>
+            <div class="controls_color" style="background-color: white;"></div>
+            <div class="controls_color" style="background-color: red;"></div>
+            <div class="controls_color" style="background-color: orange;"></div>
+            <div class="controls_color" style="background-color: yellow;"></div>
+            <div class="controls_color" style="background-color: rgb(64, 255, 47);"></div>
+            <div class="controls_color" style="background-color: rgb(82, 223, 228);"></div>
+            <div class="controls_color" style="background-color: rgb(41, 115, 226);"></div>
+            <div class="controls_color" style="background-color: rgb(95, 38, 230);"></div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
